@@ -8,6 +8,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  /* background-color: darkgray */
 }
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
@@ -25,7 +26,7 @@ body {
   bottom: 0;
   left: 0;
   min-height: 100px;
-  background: #4e5d6c;
+  background: #63686d;
 }
 
 /* The code styles the text at the bottom of the footer */
@@ -35,7 +36,7 @@ body {
   bottom: 0;
   left: 0;
   padding: 5px;
-  background: #1b3146;
+  background: #3e3e3f;
 }
 
 .navbar {
@@ -49,7 +50,7 @@ body {
   bottom: 5px;
   left: 150px;
   width: 35px;
-  color: white;
+  color: rgb(12, 12, 12);
 }
 
 /* Adding styles to the aside and filter form */
@@ -98,23 +99,27 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/hubble.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
 }
 
 .hero h1 {
-  margin-top: 200px;
+  margin-top: 90px;
   font-size: 0.1rem;
   animation: title 1.2s forwards linear;
+  /* color: rgb(100, 4, 4); */
+  /* color: rgb(2, 2, 2) */
 }
 
 .hero p {
-  font-size: 2rem;
+  font-size: 5rem;
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
+  /* color: rgb(100, 4, 4); */
+  /* color: rgb(2, 2, 2) */
 }
 
 /* input placeholder color changes */
@@ -153,7 +158,7 @@ select {
   #table-area tr td:first-child {
     font-size: 1.8em;
     font-weight: bold;
-    background: #1b3146;
+    background: #9d9fa1;
   }
 
   #table-area tr td:last-child {
